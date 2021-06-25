@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9A30E0A2685607500DC07DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A30E092685607500DC07DD /* AppDelegate.swift */; };
+		E9A30E0C2685607500DC07DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A30E0B2685607500DC07DD /* SceneDelegate.swift */; };
+		E9A30E0E2685607500DC07DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A30E0D2685607500DC07DD /* ViewController.swift */; };
+		E9A30E112685607500DC07DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A30E0F2685607500DC07DD /* Main.storyboard */; };
+		E9A30E132685607B00DC07DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A30E122685607B00DC07DD /* Assets.xcassets */; };
+		E9A30E162685607B00DC07DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A30E142685607B00DC07DD /* LaunchScreen.storyboard */; };
+		E9A30E212685607C00DC07DD /* mogmogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A30E202685607C00DC07DD /* mogmogTests.swift */; };
+		E9A30E2C2685607C00DC07DD /* mogmogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A30E2B2685607C00DC07DD /* mogmogUITests.swift */; };
+		E9A30E3D268560B700DC07DD /* MogmogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A30E3C268560B700DC07DD /* MogmogView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9A30E1D2685607C00DC07DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9A30DFE2685607500DC07DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9A30E052685607500DC07DD;
+			remoteInfo = mogmog;
+		};
+		E9A30E282685607C00DC07DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9A30DFE2685607500DC07DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9A30E052685607500DC07DD;
+			remoteInfo = mogmog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9A30E062685607500DC07DD /* mogmog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mogmog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A30E092685607500DC07DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9A30E0B2685607500DC07DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9A30E0D2685607500DC07DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9A30E102685607500DC07DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9A30E122685607B00DC07DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9A30E152685607B00DC07DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9A30E172685607B00DC07DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A30E1C2685607C00DC07DD /* mogmogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mogmogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A30E202685607C00DC07DD /* mogmogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mogmogTests.swift; sourceTree = "<group>"; };
+		E9A30E222685607C00DC07DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A30E272685607C00DC07DD /* mogmogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mogmogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A30E2B2685607C00DC07DD /* mogmogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mogmogUITests.swift; sourceTree = "<group>"; };
+		E9A30E2D2685607C00DC07DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A30E3C268560B700DC07DD /* MogmogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MogmogView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9A30E032685607500DC07DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A30E192685607C00DC07DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A30E242685607C00DC07DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9A30DFD2685607500DC07DD = {
+			isa = PBXGroup;
+			children = (
+				E9A30E082685607500DC07DD /* mogmog */,
+				E9A30E1F2685607C00DC07DD /* mogmogTests */,
+				E9A30E2A2685607C00DC07DD /* mogmogUITests */,
+				E9A30E072685607500DC07DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9A30E072685607500DC07DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9A30E062685607500DC07DD /* mogmog.app */,
+				E9A30E1C2685607C00DC07DD /* mogmogTests.xctest */,
+				E9A30E272685607C00DC07DD /* mogmogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9A30E082685607500DC07DD /* mogmog */ = {
+			isa = PBXGroup;
+			children = (
+				E9A30E412685726800DC07DD /* Mogmog */,
+				E9A30E092685607500DC07DD /* AppDelegate.swift */,
+				E9A30E0B2685607500DC07DD /* SceneDelegate.swift */,
+				E9A30E0D2685607500DC07DD /* ViewController.swift */,
+				E9A30E0F2685607500DC07DD /* Main.storyboard */,
+				E9A30E122685607B00DC07DD /* Assets.xcassets */,
+				E9A30E142685607B00DC07DD /* LaunchScreen.storyboard */,
+				E9A30E172685607B00DC07DD /* Info.plist */,
+			);
+			path = mogmog;
+			sourceTree = "<group>";
+		};
+		E9A30E1F2685607C00DC07DD /* mogmogTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9A30E202685607C00DC07DD /* mogmogTests.swift */,
+				E9A30E222685607C00DC07DD /* Info.plist */,
+			);
+			path = mogmogTests;
+			sourceTree = "<group>";
+		};
+		E9A30E2A2685607C00DC07DD /* mogmogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9A30E2B2685607C00DC07DD /* mogmogUITests.swift */,
+				E9A30E2D2685607C00DC07DD /* Info.plist */,
+			);
+			path = mogmogUITests;
+			sourceTree = "<group>";
+		};
+		E9A30E412685726800DC07DD /* Mogmog */ = {
+			isa = PBXGroup;
+			children = (
+				E9A30E3C268560B700DC07DD /* MogmogView.swift */,
+			);
+			path = Mogmog;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9A30E052685607500DC07DD /* mogmog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A30E302685607C00DC07DD /* Build configuration list for PBXNativeTarget "mogmog" */;
+			buildPhases = (
+				E9A30E022685607500DC07DD /* Sources */,
+				E9A30E032685607500DC07DD /* Frameworks */,
+				E9A30E042685607500DC07DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mogmog;
+			productName = mogmog;
+			productReference = E9A30E062685607500DC07DD /* mogmog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9A30E1B2685607C00DC07DD /* mogmogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A30E332685607C00DC07DD /* Build configuration list for PBXNativeTarget "mogmogTests" */;
+			buildPhases = (
+				E9A30E182685607C00DC07DD /* Sources */,
+				E9A30E192685607C00DC07DD /* Frameworks */,
+				E9A30E1A2685607C00DC07DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9A30E1E2685607C00DC07DD /* PBXTargetDependency */,
+			);
+			name = mogmogTests;
+			productName = mogmogTests;
+			productReference = E9A30E1C2685607C00DC07DD /* mogmogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9A30E262685607C00DC07DD /* mogmogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A30E362685607C00DC07DD /* Build configuration list for PBXNativeTarget "mogmogUITests" */;
+			buildPhases = (
+				E9A30E232685607C00DC07DD /* Sources */,
+				E9A30E242685607C00DC07DD /* Frameworks */,
+				E9A30E252685607C00DC07DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9A30E292685607C00DC07DD /* PBXTargetDependency */,
+			);
+			name = mogmogUITests;
+			productName = mogmogUITests;
+			productReference = E9A30E272685607C00DC07DD /* mogmogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9A30DFE2685607500DC07DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E9A30E052685607500DC07DD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					E9A30E1B2685607C00DC07DD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E9A30E052685607500DC07DD;
+					};
+					E9A30E262685607C00DC07DD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E9A30E052685607500DC07DD;
+					};
+				};
+			};
+			buildConfigurationList = E9A30E012685607500DC07DD /* Build configuration list for PBXProject "mogmog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9A30DFD2685607500DC07DD;
+			productRefGroup = E9A30E072685607500DC07DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9A30E052685607500DC07DD /* mogmog */,
+				E9A30E1B2685607C00DC07DD /* mogmogTests */,
+				E9A30E262685607C00DC07DD /* mogmogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9A30E042685607500DC07DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A30E162685607B00DC07DD /* LaunchScreen.storyboard in Resources */,
+				E9A30E132685607B00DC07DD /* Assets.xcassets in Resources */,
+				E9A30E112685607500DC07DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A30E1A2685607C00DC07DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A30E252685607C00DC07DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9A30E022685607500DC07DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A30E3D268560B700DC07DD /* MogmogView.swift in Sources */,
+				E9A30E0E2685607500DC07DD /* ViewController.swift in Sources */,
+				E9A30E0A2685607500DC07DD /* AppDelegate.swift in Sources */,
+				E9A30E0C2685607500DC07DD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A30E182685607C00DC07DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A30E212685607C00DC07DD /* mogmogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A30E232685607C00DC07DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A30E2C2685607C00DC07DD /* mogmogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9A30E1E2685607C00DC07DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9A30E052685607500DC07DD /* mogmog */;
+			targetProxy = E9A30E1D2685607C00DC07DD /* PBXContainerItemProxy */;
+		};
+		E9A30E292685607C00DC07DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9A30E052685607500DC07DD /* mogmog */;
+			targetProxy = E9A30E282685607C00DC07DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9A30E0F2685607500DC07DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9A30E102685607500DC07DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9A30E142685607B00DC07DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9A30E152685607B00DC07DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9A30E2E2685607C00DC07DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9A30E2F2685607C00DC07DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9A30E312685607C00DC07DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mogmog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mogmog.mogmog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9A30E322685607C00DC07DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mogmog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mogmog.mogmog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9A30E342685607C00DC07DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mogmogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mogmog.mogmogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mogmog.app/mogmog";
+			};
+			name = Debug;
+		};
+		E9A30E352685607C00DC07DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mogmogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mogmog.mogmogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mogmog.app/mogmog";
+			};
+			name = Release;
+		};
+		E9A30E372685607C00DC07DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mogmogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mogmog.mogmogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mogmog;
+			};
+			name = Debug;
+		};
+		E9A30E382685607C00DC07DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mogmogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mogmog.mogmogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mogmog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9A30E012685607500DC07DD /* Build configuration list for PBXProject "mogmog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A30E2E2685607C00DC07DD /* Debug */,
+				E9A30E2F2685607C00DC07DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9A30E302685607C00DC07DD /* Build configuration list for PBXNativeTarget "mogmog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A30E312685607C00DC07DD /* Debug */,
+				E9A30E322685607C00DC07DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9A30E332685607C00DC07DD /* Build configuration list for PBXNativeTarget "mogmogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A30E342685607C00DC07DD /* Debug */,
+				E9A30E352685607C00DC07DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9A30E362685607C00DC07DD /* Build configuration list for PBXNativeTarget "mogmogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A30E372685607C00DC07DD /* Debug */,
+				E9A30E382685607C00DC07DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9A30DFE2685607500DC07DD /* Project object */;
+}
